@@ -1,2 +1,15 @@
-".env" 
-"*.json" 
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+
+# Google credentials (never commit)
+*.json
+
+# Logs
+*.log
+
