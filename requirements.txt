@@ -1,0 +1,5 @@
+python-telegram-bot==20.6
+gspread==6.0.0
+google-auth==2.35.0
+apscheduler==3.10.4
+python-dotenv==1.0.1

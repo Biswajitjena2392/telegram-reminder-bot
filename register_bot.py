@@ -29,7 +29,6 @@ sheet = client.open_by_key(SHEET_ID).worksheet("RegisteredUsers")
 
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-print("Loaded BOT_TOKEN:", BOT_TOKEN)   # from your .env file
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Hi! Send /register to sign up for reminders.")

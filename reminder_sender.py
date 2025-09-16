@@ -19,7 +19,6 @@ registered_sheet = client.open_by_key(SHEET_ID).worksheet("RegisteredUsers")
 cases_sheet = client.open_by_key(SHEET_ID).worksheet("Cases")
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-print("Loaded BOT_TOKEN:", BOT_TOKEN)
 
 # ---------------- Reminder Function ----------------
 async def send_reminders(context: ContextTypes.DEFAULT_TYPE):
